@@ -24,9 +24,10 @@ public class Biblioteka implements BibliotekaInterfejs {
 		return null;
 	}
 
-	@Override
+	
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, String isbn, String izdavac) {
-		// TODO Auto-generated method stub
+		if(naslov == null)
+			return null;
 		return null;
 	}
 
